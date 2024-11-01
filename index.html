@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opdr. 14; Yahtzee</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <button id="knop">Gooi</button>
+    <table>
+        <tr>
+            <td class="throw">0</td>
+            <td class="throw">0</td>
+            <td class="throw">0</td>
+            <td class="throw">0</td>
+            <td class="throw">0</td>
+
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th class="left">Aantal ogen</th>
+            <th class="left">Geworpen</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class = "Count">0</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class = "Count">0</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class = "Count">0</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td class = "Count">0</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td class = "Count">0</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td class = "Count">0</td>
+        </tr>
+        <tr>
+            <td>Bonus</td>
+            <td id="bonus">0</td>
+        </tr>
+        <tr>
+            <td>Totaal punten</td>
+            <td class="totaal">0</td>
+        </tr>
+        <tr>
+            <td>------------------</td>
+            <td>---------------</td>
+        </tr>
+        <tr>
+            <th class="left">Onderste helft</th>
+            <th>Possibilities</th>
+            <th>Bonus punten</th>
+        </tr>
+        <tr>
+            <td>Three of a kind</td>
+            <td id="3oak">False</td>
+            <td class="totaal">0</td>
+        </tr>
+        <tr>
+            <td>Four of a kind</td>
+            <td id="4oak">False</td>
+            <td class="totaal">0</td>
+        </tr>
+        <tr>
+            <td>Full House</td>
+            <td class="FH">False</td>
+            <td class="FH">0</td>
+        </tr>
+        <tr>
+            <td>Small street</td>
+            <td class="small">False</td>
+            <td class="small">0</td>
+        </tr>
+        <tr>
+            <td>Large street</td>
+            <td class="large">False</td>
+            <td class="large">0</td>
+        </tr>
+        <tr>
+            <td>Yahtzee</td>
+            <td class="yahtzee">False</td>
+            <td class="yahtzee">0</td>
+        </tr>
+        <tr>
+            <td>Chance</td>
+            <td class="chance">False</td>
+            <td class="chance">0</td>
+        </tr>
+        <tr>
+            <td>===========</td>
+            <td>=========</td>
+            <td>========</td>
+        </tr>
+        <tr>
+            <th class="left" colspan="2">Eindtotaal</th>
+            <td class="totaal">0</td>
+        </tr>
+    </table>
+    <script src="myscript.js"></script>
+</body>
